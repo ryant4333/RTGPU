@@ -1,0 +1,12 @@
+version: 3
+agent:
+  authtoken: READ FROM ENV
+# tunnels:
+#   basic:
+#     proto: http
+#     addr: 8000
+endpoints:
+  - name: httpserver
+    url: READ FROM ENV
+    upstream:
+      url: api:8000
