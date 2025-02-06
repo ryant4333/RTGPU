@@ -1,12 +1,12 @@
 version: 3
 agent:
-  authtoken: READ FROM ENV
+  authtoken: 2sfIM43bPC0HnscIbFaqkReNi2M_2uDmjcDnbQDc2As8dXYyS
 # tunnels:
 #   basic:
 #     proto: http
 #     addr: 8000
 endpoints:
   - name: httpserver
-    url: READ FROM ENV
+    url: "https://cleanly-thankful-calf.ngrok-free.app"
     upstream:
       url: api:8000

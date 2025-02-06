@@ -1,7 +1,0 @@
-python-dotenv
-# pytest
-# asyncio
-ngrok
-fastapi
-uvicorn
-logfire
